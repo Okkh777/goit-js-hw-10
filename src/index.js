@@ -74,6 +74,6 @@ function createErrorMessage(err, img) {
         refs.countryList.innerHTML = markup;
     }
 function cleanHtml() {
-        countryList.innerHTML = '';
-        countryInfo.innerHTML = '';
+        refs.countryList.innerHTML = '';
+        refs.countryInfo.innerHTML = '';
 }
